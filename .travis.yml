@@ -1,0 +1,22 @@
+{
+  "language": "python",
+  "os": [
+      "linux"
+  ],
+  "dist": "xenial",
+  "python": [
+      "3.9"
+  ],
+  "install": [
+      "pip install -q pipenv ",
+      "pipenv sync -d",
+      "pipenv install flake8 --dev"
+  ],
+  "script": [
+      "pipenv run flake8 .",
+      "pipenv run pytest --cov=Braga-PyDjango"
+  ],
+  "after_success": [
+      "pipenv run codecov"
+  ]
+}

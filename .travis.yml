@@ -14,7 +14,7 @@
   ],
   "script": [
       "pipenv run flake8 .",
-      "pipenv run pytest --cov"
+      "pipenv run pytest --cov=Braga-PyDjango"
   ],
   "after_success": [
       "pipenv run codecov"

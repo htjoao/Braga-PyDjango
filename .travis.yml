@@ -13,8 +13,7 @@
       "pipenv install flake8 --dev"
   ],
   "script": [
-      "pipenv run flake8 .",
-      "pipenv run pytest --cov=Braga-PyDjango"
+      "pipenv run flake8 ."
   ],
   "after_success": [
       "pipenv run codecov"

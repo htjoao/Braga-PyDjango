@@ -1,6 +1,7 @@
 # Braga-PyDjango
 Criação de um app utilizando Django
 
+aplicação disponivel em : https://bragapydjango.herokuapp.com/
 
 [![Build Status](https://travis-ci.com/htjoao/Braga-PyDjango.svg?branch=main)](https://travis-ci.com/htjoao/Braga-PyDjango)
 [![Updates](https://pyup.io/repos/github/htjoao/Braga-PyDjango/shield.svg)](https://pyup.io/repos/github/htjoao/Braga-PyDjango/)

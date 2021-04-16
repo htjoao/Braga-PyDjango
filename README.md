@@ -1,5 +1,6 @@
 # Braga-PyDjango
 Criação de um app utilizando Django
+Link da padina do cruso https://www.python.pro.br/
 
 aplicação disponivel em : https://bragapydjango.herokuapp.com/
 
